@@ -1,0 +1,20 @@
+.search-input {
+  width: 100%;
+}
+
+.dropdown1 {
+  width: 50%;
+  cursor: pointer;
+}
+.arrowDown{
+  transition: 0.4ms ease-in-out;
+}
+
+@media (width > 768px) {
+  .search-input {
+    width: 50%;
+  }
+  .dropdown1 {
+    width: 25%;
+  }
+}
